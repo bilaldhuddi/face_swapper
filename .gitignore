@@ -7,4 +7,5 @@ venv/*
 checkpoints
 CodeFormer
 examples
+data
 __pycache__
