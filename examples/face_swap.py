@@ -8,14 +8,14 @@ from PIL import Image
 
 URL = 'http://127.0.0.1:8090/faceswap'
 
-SOURCE_IMAGE = '../data/src.jpg'
-TARGET_IMAGE = '../data/target.jpg'
+SOURCE_IMAGE = '../data/source_1.jpg'
+TARGET_IMAGE = '../data/target_12.png'
 SOURCE_INDEXES = '-1'
 TARGET_INDEXES = '-1'
-BACKGROUND_ENHANCE = True
+BACKGROUND_ENHANCE = False
 FACE_RESTORE = True
-FACE_UPSAMPLE = True
-UPSCALE = 1
+FACE_UPSAMPLE = False
+UPSCALE = 0
 CODEFORMER_FIDELITY = 0.5
 OUTPUT_FORMAT = 'JPEG'
 

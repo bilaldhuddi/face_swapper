@@ -19,3 +19,4 @@ torchvision
 tqdm
 yapf
 waitress
+gunicorn-21.2.0
